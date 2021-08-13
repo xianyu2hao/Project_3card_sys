@@ -17,8 +17,10 @@ model_1.Cat()
 cat = MH2.Cat()
 cat.eat()
 
+# 导入数据包
 import RC_message
-from RC_message import  send_message
+from RC_message import send_message
+
 send_message.send()
 
 RC_message.receive_message.receive()

@@ -138,7 +138,7 @@ def save_card_data():
 # 8.下次再启动文件管理系统读取到名片列表中
 def load_files_data():
     # 判断文件存不存在
-    if  os .path.exists("card_data.txt"):
+    if  os.path.exists("card_data.txt"):
       # 打开文件
         card_file= open("card_data.txt","r",encoding="utf-8")
       # 操作文件
